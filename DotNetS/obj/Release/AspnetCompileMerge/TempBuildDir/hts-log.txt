@@ -1,0 +1,28 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 31 Dec 2020 06:57:59 at http://catamkla.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://catamkla.com/ -O1 "C:\Users\chimg\OneDrive\Desktop\catam" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+07:11:59	Error: 	"Not Found" (404) at link catamkla.com/info@catamkla.com (from catamkla.com/)
+07:12:06	Error: 	"Not Found" (404) at link catamkla.com/account/info@catamkla.com (from catamkla.com/account/login)
+07:12:10	Error: 	"Not Found" (404) at link catamkla.com/collections/info@catamkla.com (from catamkla.com/collections/all)
+07:12:35	Error: 	"Error when decompressing" (-1) at link media.bizwebmedia.net/Sites/62254/data/upload/hhình ảnh cá tầm/23.JPG?0 (from catamkla.com/hinh-anh)
+07:17:02	Error: 	"Forbidden" (403) at link bizweb.dktcdn.net/100/114/853/themes/145070/assets/owl.video.play.png (from bizweb.dktcdn.net/100/114/853/themes/145070/assets/owl.carousel.min.css?1538383623685)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/totop.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/headerbg.jpg (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/patternheader.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/patternrowmenu.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/arrowbutton.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/indicator.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/indicator2.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/pagin2.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/patterncarusel2.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/arrows1.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/line-right.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+07:17:50	Error: 	"Not Found" (404) at link static.bizwebmedia.net/Sites/107391/img/arrow3.png (from static.bizwebmedia.net/Sites/107391/data/styles.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 20 minutes 25 seconds : 456 links scanned, 438 files written (40600742 bytes overall) [31662896 bytes received at 25847 bytes/sec], 13905574 bytes transferred using HTTP compression in 140 files, ratio 31%, 2.1 requests per connection
+(17 errors, 0 warnings, 0 messages)

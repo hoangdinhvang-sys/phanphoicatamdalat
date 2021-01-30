@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewBag.Title = "LienHe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<section class="bread-crumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="breadcrumbs">
+                    <li class="home">
+                        <a onclick="goTo('Home/Index')">Trang chủ</a>
+                        <span><!-- <i class="fa fa-angle-right"></i> --> / </span>
+                    </li>
+
+                    <li><strong>Liên hệ</strong></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-8">
+            <div class="page-login">
+                <div id="login">
+                    <h1 class="title-page-contact">Liên hệ với chúng tôi</h1>
+                    <p>Bạn hãy điền nội dung tin nhắn vào form dưới đây và gửi cho chúng tôi. Chúng tôi sẽ trả lời bạn sau khi nhận được.</p>
+
+                    <form accept-charset="utf-8" action="http://catamkla.com/contact" id="contact" method="post">
+                        <input name="FormType" type="hidden" value="contact" />
+                        <input name="utf8" type="hidden" value="true" /><input type="hidden" id="Token-f4d8d9ff7e074a80962d26be7de5198d" name="Token" />
+                        <script src="../www.google.com/recaptcha/apif78f.js?render=6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK"></script>
+                        <script>grecaptcha.ready(function() {
+grecaptcha.execute("6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK", {action: "/contact"})
+.then(function(token) {
+document.getElementById("Token-f4d8d9ff7e074a80962d26be7de5198d").value = token
+});
+});</script>
+                        <div class="form-signup clearfix">
+                            <fieldset class="form-group">
+                                <label>Tên:</label>
+                                <input type="text" name="contact[name]" id="name" class="form-control  form-control-lg" required>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label>Email:</label>
+                                <input type="email" name="contact[email]" id="email" class="form-control form-control-lg" required>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label>Nội dung:</label>
+                                <textarea name="contact[body]" id="comment" class="form-control form-control-lg" rows="5" Required></textarea>
+                            </fieldset>
+                            <div class="pull-xs-left" style="margin-top:20px;">
+                                <button tyle="summit" class="btn btn-style">GỬI TIN NHẮN</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4">
+            <div class="widget-item info-contact info-contact-of-contact">
+                <div class="logo text-xs-left" style="margin-top:95px;">
+                    <a onclick="goTo('Home/Index')" title=""><img src="../bizweb.dktcdn.net/100/114/853/themes/145070/assets/logo_catam.bmp?1538383623685" alt="HaiSanCaTam" title="HaiSanCaTam"></a>
+                </div>
+                <!-- End .widget-title -->
+                <ul class="widget-menu">
+                    <li>
+                        <i class="fa fa-map-marker color-x" aria-hidden="true"></i> - VĂN PHÒNG ĐẠI DIỆN:<br>
+                        22-24-26 Mạc Thị Bưởi, Quận 1, TP. HCM.
+                        <br>
+                        <br>
+                        - KHO HÀNG DI LINH:
+                        <br>
+                        412 Hùng Vương, Di Linh, Lâm Đồng.
+                        <br>
+                        <br>
+                        - KHO SỐ 1 GÒ VẤP: <br>
+                        80/7 Đường số 5, Phường 17, Quận Gò Vấp, TP.HCM.
+                    </li>
+                    <li><i class="fa fa-phone color-x" aria-hidden="true"></i> 08 34 88 1646</li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="#"> info@catamkla.com</a> </li>
+                </ul>
+                <!-- End .widget-menu -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="box-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5859874675157!2d106.67389482336782!3d10.842961610739872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b2afaee8f3%3A0x9228e3b960ec8bd4!2zODAgxJDGsOG7nW5nIHPhu5EgNSwgUGjGsOG7nW5nIDE3LCBHw7IgVuG6pXAsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1473145966376" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+
